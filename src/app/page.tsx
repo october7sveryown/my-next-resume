@@ -22,7 +22,7 @@ export default function Page() {
     <PageContainer id="resume" className="grid grid-cols-[35%_1fr] gap-0">
       <aside
         className={classNames(
-          "h-full flex flex-col gap-6 pl-10 pt-10 pr-4 text-white",
+          "h-full flex flex-col gap-6 pl-4 pt-4 pr-4 text-white",
           config.highlight_color.bg,
         )}
       >

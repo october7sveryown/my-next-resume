@@ -35,7 +35,7 @@ export function Content({
 
   return (
     <main
-      className={classNames("flex flex-col gap-2", {
+      className={classNames("flex flex-col gap-2 text-justify", {
         "text-sm": variant === "compact",
         "leading-snug": variant === "default",
         className,

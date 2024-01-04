@@ -19,143 +19,89 @@ export interface Position {
 
 export const workExperienceData: Position[] = [
   {
-    title: "FULLSTACK SOFTWARE DEVELOPER",
+    title: "Full-Stack Developer (Senior Executive - Technology)",
     company: {
-      name: "FOODBARRIO, Switzerland (part-time, remote)",
-      url: "https://foodbarrio.com/en/",
+      name: "MCX, India (India's largest commodity exchange)",
+      url: "https://www.mcxindia.com/",
     },
     period: {
-      start: "Jul 2023",
-    },
-  },
-  {
-    title: "SENIOR FULLSTACK SOFTWARE DEVELOPER",
-    company: {
-      name: "HYPERTING, Italy (remote)",
-      url: "https://www.hyperting.com/",
-    },
-    period: {
-      start: "May 2022",
-      end: "Apr 2023",
+      start: "June 2020",
+      end: "Aug 2023",
     },
     details: [
       {
         type: "paragraph",
         value:
-          "Worked on a software house, involved in internal and international projects, like accounting and flight management CRMs.",
+          "Implemented an application (from conceptualization to deployment) which transformed traditional offline processes to online",
       },
       {
         type: "list",
         items: [
-          "Collaborate with stakeholders to gather requirements for new features;",
-          "Developed new functionalities for both server and client;",
-          "Designing database structures and GraphQL schemas and creating reusable components.",
+          "Collaborated with stakeholders to understand the existing offline processes",
+          "Implemented features like Auth, Role-based access, 3-step application process, validation of digitally signed documents & verification of another 10+ business parameters",
+          "Mentored a junior dev & participated in code review sessions",
+          "Seamlessly migrated the application from old infrastracture (as CentOS 8 reached EOF) to RHEL based servers",
+          "Implemented reverse proxy using nginx for enhanced security",
+          "Actively involved in maintenance & resolution of vulnerabilites / defects in the application",
+          "Key person for maintaining code documentation and versioning",
+          "Received an average performance rating of 5.3/6 during my tenure of 4 years (highest among the team)"
         ],
       },
       {
         type: "tags",
         items: [
-          "React",
-          "Node.JS",
+          "Java",
+          "Spring Boot",
+          "MySQL",
+          "JUnit",
+          "Test Containers",
+          "Angular",
+          "nginx",
+          "Hibernate",
+          "Lombok",
+          "Postman",
+          "Bitbucket",
+          "Jira",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Front-end Developer (Management Trainee - Technology)",
+    company: {
+      name: "MCX, India (India's largest commodity exchange)",
+      url: "https://www.mcxindia.com",
+    },
+    period: {
+      start: "Jun 2019",
+      end: "May 2020",
+    },
+    details: [
+      {
+        type: "paragraph",
+        value:
+          "Key front-end developer in a team of 2 members",
+      },
+      {
+        type: "list",
+        items: [
+          "Created 30+ Angular components & services for implementing various features like login, CRUD & Dashboard",
+          "Used Bootstrap, Nebular UI & ag-grid to design and develop the UI components",
+          "Utilized RxJS for state management within application",
+          "Completed front-end development of the application within a highly prioritised deadline",
+          "Received appreciation from CTO for completing development on stipulated timeline",
+        ],
+      },
+      {
+        type: "tags",
+        items: [
+          "Angular",
           "TypeScript",
-          "Express",
-          "GraphQL",
-          "Apollo server",
-          "Apollo client",
-          "PostgreSQL",
-          "Redis",
-          "Rust",
-        ],
-      },
-    ],
-  },
-  {
-    title: "FULLSTACK SOFTWARE DEVELOPER",
-    company: {
-      name: "FOODBARRIO, Switzerland (remote)",
-      url: "https://foodbarrio.com/en/",
-    },
-    period: {
-      start: "Apr 2020",
-      end: "Apr 2022",
-    },
-    details: [
-      {
-        type: "paragraph",
-        value:
-          "Helped a Swiss-based startup to build a social marketplace that connects local Italian food producers directly to customers through a mobile app with social network and marketplace features, where people can connect, share, chat, and buy goods.",
-      },
-      {
-        type: "list",
-        items: [
-          "Collaborate closely with founders to gather requirements, conduct research, and write documentation for new and unique features;",
-          "Architect MVP and solutions for new ideas;",
-          "Developed new functionalities for both server and client;",
-          "Designing database structures and GraphQL schemas and creating reusable components.",
-          "Developing, deploying, and debugging cloud-based applications using AWS Lambda, for video processing and generating PDF.",
-          "Also responsible for dependency upgrades;",
-          "Apple store and Android store management.",
-        ],
-      },
-      {
-        type: "tags",
-        items: [
-          "React Native",
-          "Expo",
-          "Node.JS",
-          "GraphQL",
-          "Express",
-          "Apollo server",
-          "Apollo client",
-          "PostgreSQL",
-          "AWS S3",
-          "AWS Lambda",
-          "Python",
-          "Redis",
-          "Heroku",
-          "Redux",
-          "Algolia",
-          "Stripe",
-        ],
-      },
-    ],
-  },
-  {
-    title: "SENIOR SOFTWARE DEVELOPER",
-    company: {
-      name: "TOTVS, Brazil",
-      url: "https://en.totvs.com/",
-    },
-    period: {
-      start: "Jan 2008",
-      end: "Apr 2019",
-    },
-    details: [
-      {
-        type: "paragraph",
-        value:
-          "Worked at the biggest ERP company in Brazil, on multiple software projects simultaneously with different clients from different markets, and had strong expertise in translating the client&apos;s specific needs into easy-to-understand software solutions, ensuring that clients&apos; vision and requirements were met.",
-      },
-      {
-        type: "list",
-        items: [
-          "Meet with clients and stakeholders to gather requirements, conduct research, and create detailed plans and specifications for new functionality;",
-          "Developed new software functionalities;",
-          "Custom modules and processes for specific domains;",
-          "Integrations using web services, databases, and text files;",
-          "Automation of tasks and processes focused on improving productivity;",
-          "Algorithms for industry, distribution, and finance companies;",
-          "Supervised and led a team of developers.",
-        ],
-      },
-      {
-        type: "tags",
-        items: [
-          "ADVPL (propriety language)",
-          "MSSQL",
-          "Oracle",
-          "Lead",
-          "Training",
+          "NebularUI",
+          "ag-grid",
+          "RxJS",
+          "HTML5",
+          "CSS3"
         ],
       },
     ],

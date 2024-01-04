@@ -19,23 +19,35 @@ export interface Education {
 
 export const educationData: Education[] = [
   {
-    degree: "Bachelor of Technology Management",
+    degree: "B.Tech in Computer Engineering",
     school: {
-      name: "FAEC INESUL, Brazil",
+      name: "Gujarat Technological University, India",
     },
     period: {
-      start: "2007",
+      start: "2016",
       end: "2019",
     },
-    // details: [
-    //   {
-    //     type: "paragraph",
-    //     value: "I've studied a lot.",
-    //   },
-    //   {
-    //     type: "tags",
-    //     items: ["Networking"],
-    //   },
-    // ],
+    details: [
+      {
+        type: "paragraph",
+        value: "WES / Canadian equivalency : 4-year degree",
+      },
+    ],
+  },
+  {
+    degree: "Diploma in Computer Engineering",
+    school: {
+      name: "Nirma University, India",
+    },
+    period: {
+      start: "2013",
+      end: "2016",
+    },
+    details: [
+      {
+        type: "paragraph",
+        value: "WES / Canadian equivalency : 3-year degree",
+      },
+    ],
   },
 ];

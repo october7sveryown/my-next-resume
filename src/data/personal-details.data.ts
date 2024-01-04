@@ -5,12 +5,16 @@ interface LabelValue {
 
 export const personalDetailsData: LabelValue[] = [
   {
+    label: "Status in Canada",
+    value: "Permanent Resident",
+  },
+  {
     label: "Nationality",
-    value: "Brazilian, Italian",
+    value: "Indian",
   },
   {
     label: "Location",
-    value: "Ivrea, Italy",
+    value: "Toronto, ON",
   },
   // {
   //   label: "Languages",

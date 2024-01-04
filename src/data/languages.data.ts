@@ -4,16 +4,17 @@ interface Language {
 }
 
 export const languagesData: Language[] = [
-  {
-    language: "Portuguese",
-    level: "native",
-  },
+  
   {
     language: "English",
-    level: "advanced",
+    level: "Fluent",
   },
   {
-    language: "Italian",
-    level: "intermediate",
+    language: "French",
+    level: "Novice",
+  },
+  {
+    language: "Gujarati",
+    level: "native",
   },
 ];

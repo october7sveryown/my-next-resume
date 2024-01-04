@@ -29,28 +29,23 @@ export const contactData: ContactType[] = [
   {
     type: "email",
     icon: faSquareEnvelope,
-    value: "your_email_@gmail.com",
+    value: "yashthaker.777@gmail.com",
   },
   {
     type: "phone",
     icon: faSquarePhone,
-    value: "+1 234 567 890",
+    value: "+1 437 313 2772",
   },
   {
     type: "link",
     icon: faSquareGithub,
-    value: "github.com/rvieceli",
-    href: "https://github.com/rvieceli",
+    value: "github.com/october7sveryown",
+    href: "https://github.com/october7sveryown",
   },
   {
     type: "link",
     icon: faLinkedin,
-    value: "linkedin.com/in/rafael-vieceli",
-    href: "https://www.linkedin.com/in/rafael-vieceli/",
+    value: "linkedin.com/in/yash-thaker",
+    href: "https://www.linkedin.com/in/yash-thaker/",
   },
-  // {
-  //   type: "text",
-  //   icon: faLocationDot,
-  //   value: "Ivrea, Italy",
-  // }
 ];

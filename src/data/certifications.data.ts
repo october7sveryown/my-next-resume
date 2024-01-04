@@ -6,9 +6,15 @@ interface Certification {
 
 export const certificationsData: Certification[] = [
   {
-    name: "AWS Certified Cloud Practitioner",
+    name: "Containers & Kubernetes Essentials by IBM",
     year: "2023",
     credentialUrl:
-      "https://www.credly.com/badges/f3853a19-e3a9-4880-9d04-0eff8aeddf2d/public_url",
+      "https://www.credly.com/badges/b9d9b3b1-e618-480c-929e-f28b7eddab3e/public_url",
+  },
+  {
+    name: "Java assessment by Hackerrank",
+    year: "2023",
+    credentialUrl:
+      "https://www.hackerrank.com/certificates/93479938e557",
   },
 ];

@@ -7,7 +7,7 @@ export function Profile() {
 
   return (
     <Section title="Profile">
-      <Content data={profileData} />
+      <Content data={profileData}/>
     </Section>
   );
 }
