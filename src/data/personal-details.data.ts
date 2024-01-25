@@ -9,10 +9,6 @@ export const personalDetailsData: LabelValue[] = [
     value: "Permanent Resident",
   },
   {
-    label: "Nationality",
-    value: "Indian",
-  },
-  {
     label: "Location",
     value: "Toronto, ON",
   },

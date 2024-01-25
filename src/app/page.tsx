@@ -44,7 +44,7 @@ export default function Page() {
 
         <Certifications />
       </aside>
-      <main className="flex flex-col gap-4 m-4 mt-10 mr-8">
+      <main className="flex flex-col gap-4 m-4 mt-4 mr-8">
         <Title />
 
         <WorkExperience />
