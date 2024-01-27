@@ -15,7 +15,7 @@ export const certificationsData: Certification[] = [
     name: "Amazon EKS Knowledge Badge",
     year: "2024",
     credentialUrl:
-      "",
+      "https://www.credly.com/badges/badb8a2f-8bf1-4a2b-82ac-e8aac67dd80c/public_url",
   },
   {
     name: "Java assessment by Hackerrank",
